@@ -20,7 +20,7 @@ services:
       - mongo-empty-db:/data/db
     restart: always
 
-  adminmongo:
+  adminmongo_example:
     image: mrvautin/adminmongo
     restart: always
     environment:
